@@ -37,7 +37,7 @@ except ImportError as e:
 init_databases()
 
 # Токен бота
-TOKEN = '8459700913:AAE0WfK597xr5Rl7PtkoL3HiXFOlJH0-WHQ'
+TOKEN = ''
 bot = TeleBot(TOKEN)
 
 def start_bot():
@@ -52,4 +52,5 @@ def start_bot():
         bot.polling(none_stop=True)
 
 if __name__ == '__main__':
+
     start_bot()
